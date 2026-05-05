@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Typo Effects Studio">
+  <rect width="64" height="64" rx="12" fill="#050505"/>
+  <g transform="translate(32 32)">
+    <path d="M-2 -25 7 -25 3 -10 12 -10 10 -2 -2 -2z" fill="#e8ff65" transform="rotate(0)"/>
+    <path d="M-2 -25 7 -25 3 -10 12 -10 10 -2 -2 -2z" fill="#f246c7" transform="rotate(60)"/>
+    <path d="M-2 -25 7 -25 3 -10 12 -10 10 -2 -2 -2z" fill="#438ee7" transform="rotate(120)"/>
+    <path d="M-2 -25 7 -25 3 -10 12 -10 10 -2 -2 -2z" fill="#e8ff65" transform="rotate(180)"/>
+    <path d="M-2 -25 7 -25 3 -10 12 -10 10 -2 -2 -2z" fill="#f246c7" transform="rotate(240)"/>
+    <path d="M-2 -25 7 -25 3 -10 12 -10 10 -2 -2 -2z" fill="#438ee7" transform="rotate(300)"/>
+    <circle r="6.5" fill="#050505"/>
+    <circle r="3" fill="#f4f4ef"/>
+  </g>
+</svg>
