@@ -779,7 +779,7 @@
 
   <script>
     const STORAGE_KEY = "typography-effects-studio-v1";
-    const RANDOM_WORD_URL = "https://random-word-api.herokuapp.com/word?length=5&diff=1";
+    const RANDOM_WORD_URL = "https://random-words-api.kushcreates.com/api?language=en&length=5&words=1";
     const OPENTYPE_URL = "https://cdn.jsdelivr.net/npm/opentype.js@1.3.4/dist/opentype.min.js";
 
     const OUTLINE_FONT_FILES = {
@@ -2677,7 +2677,7 @@
       }
       if (!response.ok) throw new Error("Random word unavailable.");
       const payload = await response.json();
-      const word = Array.isArray(payload) ? payload[0] : payload;
+      const word = Array.isArray(payload) ? payload[0]?.word || payload[0] : payload?.word || payload;
       const text = String(word || "").trim();
       if (!/^[a-z]+$/i.test(text)) throw new Error("Random word unavailable.");
       return text.slice(0, 24);
